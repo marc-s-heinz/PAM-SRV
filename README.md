@@ -13,6 +13,7 @@ Derzeitige Probleme (TO-DO):
 - Probleme mit I²C: wahrscheinlich aufgrund der Pull-Up Widerstände insbesondere beim LidarController
 
 Zukümftige Verbesserungen:
+- Raspberry Pi Camera zufügen
 - Anderes Chassis/ Gehäuse
 - Neue Motoren mit funktionierenden Encodern, neue Motorcontroller
 - Erweiterung der IMU Implementierung
