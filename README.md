@@ -10,7 +10,7 @@ Die Arduinos sind zuständig für die Ansteuerung der Motoren und Auslesen der S
 
 Derzeitige Probleme (TO-DO):
 - Gesamtsystem noch nicht getestet
-- Probleme mit I²C: wahrscheinlich aufgrund der Pull-Up Widerstände insbesondere beim LidarController
+- Probleme mit I²C: wahrscheinlich aufgrund der Pull-Up Widerstände insbesondere beim LidarController oder des Clock-Stretchings bei den   Software-I²C-Slaves
 
 Zukümftige Verbesserungen:
 - Raspberry Pi Camera zufügen
