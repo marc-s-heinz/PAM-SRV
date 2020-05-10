@@ -11,6 +11,7 @@ Die Arduinos sind zuständig für die Ansteuerung der Motoren und Auslesen der S
 Derzeitige Probleme (TO-DO):
 - Gesamtsystem noch nicht getestet
 - Probleme mit I²C: wahrscheinlich aufgrund der Pull-Up Widerstände insbesondere beim LidarController oder des Clock-Stretchings bei den   Software-I²C-Slaves
+- Kein geregeltes beenden der client-Server Verbindung
 
 Zukümftige Verbesserungen:
 - Raspberry Pi Camera zufügen
@@ -18,7 +19,7 @@ Zukümftige Verbesserungen:
 - Neue Motoren mit funktionierenden Encodern, neue Motorcontroller mit PID Regelung
 - Erweiterung der IMU Implementierung
 - Status LEDs oder Display
-- Verwendung von LoRa Technologie anstatt des Wifi Servers
+- Verwendung von LoRa Technologie anstatt des Wifi Servers mit geregeltem Beenden der Verbindung
 - Implementierung OpenCV
 - Implementierung ROS
 - SLAM Funktionalität
