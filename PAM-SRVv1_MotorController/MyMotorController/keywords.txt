@@ -1,0 +1,8 @@
+MyMotorController	KEYWORD1
+setSpeed			KEYWORD2
+stop				KEYWORD2
+drive 				KEYWORD2
+pinFWD				LITERAL1
+pinBWD				LITERAL1
+pinEncoderA			LITERAL1
+pinEncoderB			LITERAL1

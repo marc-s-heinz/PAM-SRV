@@ -1,0 +1,2 @@
+MyVoltageSensor	KEYWORD1
+getVoltage	KEYWORD2

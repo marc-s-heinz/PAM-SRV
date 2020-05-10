@@ -1,0 +1,2 @@
+MyCurrentSensor	KEYWORD1
+getCurrent	KEYWORD2
