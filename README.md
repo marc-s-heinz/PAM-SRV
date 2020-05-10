@@ -15,10 +15,9 @@ Derzeitige Probleme (TO-DO):
 Zukümftige Verbesserungen:
 - Raspberry Pi Camera zufügen
 - Anderes Chassis/ Gehäuse
-- Neue Motoren mit funktionierenden Encodern, neue Motorcontroller
+- Neue Motoren mit funktionierenden Encodern, neue Motorcontroller mit PID Regelung
 - Erweiterung der IMU Implementierung
 - Status LEDs oder Display
-- PID Regler für Drehzahl
 - Verwendung von LoRa Technologie anstatt des Wifi Servers
 - Implementierung OpenCV
 - Implementierung ROS
@@ -28,6 +27,7 @@ Zukümftige Verbesserungen:
 Der Roboter besteht aus (BOM):
 - 1x  Raspberry Pi 4 Modell B 4 GB (https://www.amazon.de/dp/B07TC2BK1X/ref=cm_sw_em_r_mt_dp_U_kcuTEb4A7DN07)
 - 2x  Arceli Due 2012 R3 (Arduino Due Klon) (https://www.amazon.de/dp/B07MPYQ4BH/ref=cm_sw_em_r_mt_dp_U_eiuTEbXPE1EW8)
+- 1x  RPLidar A1M8 360-Grad-Laserscanner (https://www.amazon.de/dp/B07T6D48RL/ref=cm_sw_em_r_mt_dp_U_duuTEbQXMZ7WZ)
 - 1x  Adafruit BNO055 9-DOF Absolute Orientation IMU (https://www.amazon.de/dp/B017PEIGIG/ref=cm_sw_em_r_mt_dp_U_iCuTEb5FE4TMV)
 - 2x  AZDelivery TXS0108E 8 Channel Logic Level Converter (https://www.amazon.de/dp/B07V1FY9W5/ref=cm_sw_em_r_mt_)
 - 1x  Arceli Spannungssensor DC 0-25V (https://www.amazon.de/dp/B07RFJYSM4/ref=cm_sw_em_r_mt_dp_U_sguTEbASWX6CT)
@@ -36,7 +36,6 @@ Der Roboter besteht aus (BOM):
 - 3x  MissBirdler Dual 5V USB Spannungswandler (https://www.amazon.de/dp/B071FSWGJS/ref=cm_sw_em_r_mt_dp_U_.puTEbTKZM28H)
 - 2x  Arceli L298N Dual H Brücke (https://www.amazon.de/dp/B07MY33PC9/ref=cm_sw_em_r_mt_dp_U_IsuTEbJJQVS2X)
 - 1x  Toogoo 4wd Smart Robot Car Chassis (https://www.amazon.de/dp/B07VSLZ4CJ/ref=cm_sw_em_r_mt_dp_U_8suTEbX4SYN94)
-- 1x  RPLidar A1M8 360-Grad-Laserscanner (https://www.amazon.de/dp/B07T6D48RL/ref=cm_sw_em_r_mt_dp_U_duuTEbQXMZ7WZ)
 
 Geplant:
 - 1x  KeeYees 4 Kanal IIC Logik Level Konverter (https://www.amazon.de/dp/B07LG6RK7L/ref=cm_sw_em_r_mt_dp_U_FjuTEbAKEKRJ1)
