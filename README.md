@@ -3,7 +3,7 @@
 PAM-SRV ist eine Abkürzung für
 "Partial Automated Meccanum-wheel Surveilance Robot Vehicle"
 
-![PAMSRV1](IMG_3883.HEIC)
+![PAMSRV1](/pictures/pam1.png)
 
 Als Hauptrechner und WifiServer dient ein Raspberry Pi 4 der mit Java programiert wurde.
 Daran sind mittels I²C zwei Arduino Due und die Inertial Measurement Unit angeschlossen.
